@@ -1,0 +1,26 @@
+:root {
+    --bg-primary: #1b1b32;
+    --bg-secondary: #d0d0d5;
+    --bg-tasks: #00471b;
+    --title-color: #fff;
+    --subtitle-color: #9e9e9e;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    color: var(--title-color);
+    background-color: var(--bg-primary);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }

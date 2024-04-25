@@ -1,0 +1,31 @@
+@import './Global.css';
+
+.task__form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.task__input {
+  width: 350px;
+  font-size: 18px;
+  background-color: var(--title-color);
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid var(--bg-tasks);
+  outline: none;
+}
+
+.task__button {
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: var(--bg-tasks);
+  color: var(--title-color);
+  text-transform: capitalize;
+}
